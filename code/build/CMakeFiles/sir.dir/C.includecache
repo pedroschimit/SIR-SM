@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/g/Dropbox/pesquisa/SIR-SM/code/random.h
+
+/mnt/g/Dropbox/pesquisa/SIR-SM/code/rede.h
+
+/mnt/g/Dropbox/pesquisa/SIR-SM/code/sir.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+math.h
+-
+rede.h
+/mnt/g/Dropbox/pesquisa/SIR-SM/code/rede.h
+string.h
+/mnt/g/Dropbox/pesquisa/SIR-SM/code/string.h
+random.h
+/mnt/g/Dropbox/pesquisa/SIR-SM/code/random.h
+
