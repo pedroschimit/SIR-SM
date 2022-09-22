@@ -1,3 +1,0 @@
-/mnt/g/Dropbox/pesquisa/SIR-SM/code/build/CMakeFiles/edit_cache.dir
-/mnt/g/Dropbox/pesquisa/SIR-SM/code/build/CMakeFiles/rebuild_cache.dir
-/mnt/g/Dropbox/pesquisa/SIR-SM/code/build/CMakeFiles/sir.dir

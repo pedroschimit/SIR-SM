@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/sir.dir/sir.c.o CMakeFiles/sir.dir/random.c.o CMakeFiles/sir.dir/rede.c.o  -o sir  -lm 

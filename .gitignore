@@ -5,4 +5,5 @@
 /code/build/sir
 .exe
 .o
+/code/Makefile.win
 /results
