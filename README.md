@@ -35,6 +35,7 @@ For Windows, the project is set using Dev-C++ software (https://sourceforge.net/
 For Linux, the build folder helps to compile the code using CMAKE. Open a terminal on the build folder and run
 
 cmake ..
+
 cmake --build .
 
 The results files are written in the results folder. It can be changed in the data.ini file (/code/data.ini for Windows and /code/build/data.ini for Linux).
