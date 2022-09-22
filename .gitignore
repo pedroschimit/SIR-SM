@@ -3,5 +3,6 @@
 /code/build/CMakeCache.txt
 /code/build/Makefile
 /code/build/sir
+.exe
 .o
 /results
