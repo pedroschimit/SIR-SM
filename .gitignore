@@ -1,9 +1,7 @@
-code/build/CMakeFiles
-code/build/cmake_install.cmake
-code/build/CMakeCache.txt
-code/build/Makefile
-code/build/sir
-code/random.o
-code/rede.o
-code/SIR.exe
-code/sir.o
+/code/build/CMakeFiles
+/code/build/cmake_install.cmake
+/code/build/CMakeCache.txt
+/code/build/Makefile
+/code/build/sir
+.o
+/results
