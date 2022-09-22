@@ -28,6 +28,8 @@ The model was presented and discussed in Schimit, P. H. T.; Monteiro, L.H.A. . O
 - NEIGH_VONNE: Von Neumann neighborhood.
 - NEIGH_SM: Neighborhood used in Schimit and Monteiro, 2009.
 
+Variables PC, PD, PN, K, C, r and iniI can be passed by command line using --PC, --PD, --PN, --K, --C, --r and --iniI, respectively. The other ones are hard-coded.
+
 ## Compiling the code
 
 For Windows, the project is set using Dev-C++ software (https://sourceforge.net/projects/orwelldevcpp/) with its proper .dev file. Easy to install and use a simple project.
@@ -38,9 +40,11 @@ cmake ..
 
 cmake --build .
 
+## Running the code
+
 The results files are written in the results folder. It can be changed in the data.ini file (/code/data.ini for Windows and /code/build/data.ini for Linux).
 
-## Running the code
+If the files SIR-SM_SIM_0000.csv existis in the folder, the new result will be written in the file SIR-SM_SIM_0001.csv, that is, it increments the file number.
 
 ## License
 
