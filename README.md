@@ -5,7 +5,7 @@ The model was presented and discussed in Schimit, P. H. T.; Monteiro, L.H.A. . O
  
 # How to use the code
 
-The input variables are:
+## The input variables are:
 
 **SIDE**: size of the square lattice side.
 
@@ -28,6 +28,21 @@ The input variables are:
 - NEIGH_VONNE: Von Neumann neighborhood.
 - NEIGH_SM: Neighborhood used in Schimit and Monteiro, 2009.
 
+## Compiling the code
 
+For Windows, the project is set using Dev-C++ software (https://sourceforge.net/projects/orwelldevcpp/) with its proper .dev file. Easy to install and use a simple project.
 
+For Linux, the build folder helps to compile the code using CMAKE. Open a terminal on the build folder and run
 
+cmake ..
+cmake --build .
+
+The results files are written in the results folder. It can be changed in the data.ini file (/code/data.ini for Windows and /code/build/data.ini for Linux).
+
+## Running the code
+
+## License
+
+This content is licensed under [Creative Commons Attribution-ShareAlike 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
