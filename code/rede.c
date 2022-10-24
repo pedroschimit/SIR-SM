@@ -1,8 +1,9 @@
-#include "rede.h"
-#include "random.h"
 #include <time.h>
 #include <math.h>
 #include <stdlib.h>
+#include "rede.h"
+#include "random.h"
+
 
 int redeC;
 int reder;

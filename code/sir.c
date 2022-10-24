@@ -19,18 +19,11 @@ email: schimit @ gmail . com ; schimit @ alumni . usp . br (remove space)
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <string.h>
+#include "sir.h"
 #include "rede.h"
-#include "string.h"
 #include "random.h"
 
-/* defines */
-#define MAXFILES 1000
-#define SIDE 100
-#define S 0
-#define I 1
-#define R 2
-#define ITER 100
-#define E 2.718281828459045
 
 int estado[SIDE][SIDE];
 int temp[SIDE][SIDE];
@@ -67,12 +60,12 @@ int main(int argc, char *argv[])
    char fileepid[512], filefolder[256];
    
    iNeigh = NEIGH_SM;
-   C=4;
-   r=8;
-   K=1;
-   PC=0.6;
-   PD=0.3;
-   PN=0.1;
+   C=8;
+   r=48;
+   K=1.1;
+   PC=(float)1/(float)14;
+   PD=0.01;
+   PN=(float)1/((float)365*(float)78);
    iniI = 0.005;
    
    srand (time(NULL)); 

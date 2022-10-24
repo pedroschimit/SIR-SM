@@ -1,4 +1,4 @@
-#ifndef _SIR_H_
+#ifndef _REDE_H_
 #define _REDE_H_
 
 /* REDE */

@@ -17,17 +17,9 @@ email: schimit @ gmail . com ; schimit @ alumni . usp . br (remove space)
 #ifndef _SIR_H_
 #define _SIR_H_
 
-/* includes */
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <math.h>
-#include "rede.h"
-#include "random.h"
-
 /* defines */
 #define MAXFILES 1000
-#define TAM 1000
+#define SIDE 1000
 #define S 0
 #define I 1
 #define R 2
