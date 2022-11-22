@@ -118,10 +118,11 @@ int main(int argc, char *argv[])
       dsi=0; dir=0; dis=0; drs=0;
       for(i=0;i<SIDE;i++){
       	for(j=0;j<SIDE;j++){
-	       	nI=0;
+	       	
 	         if(estado[i][j]==S){
 	            ds++;
 	            
+	            nI=0;
 	            for(c=0;c<C;c++){
 	
 						return_pos(i, j, &x, &y);

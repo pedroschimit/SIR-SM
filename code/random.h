@@ -1,5 +1,5 @@
-#ifndef _SIR_H_
-#define _SIR_H_
+#ifndef _RANDOM_H_
+#define _RANDOM_H_
 
 /* Random number library */
 #define NNN 624
